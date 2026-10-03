@@ -1,0 +1,7 @@
+# VS Code本地配置
+.vscode/
+# 日志文件
+*.log
+# 系统生成垃圾文件
+.DS_Store
+Thumbs.db
