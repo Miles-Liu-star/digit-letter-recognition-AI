@@ -6,7 +6,7 @@ from PIL import Image
 
 
 def main():
-	image_path = Path(__file__).resolve().parent / "test-images" / "1.png"  # 此处在选取不同图片用于测试时需更改路径
+	image_path = Path(__file__).resolve().parent / "test-images" / "2.png"  # 此处在选取不同图片用于测试时需更改路径
 	with Image.open(image_path) as image:
 		# Convert to grayscale; each value is a pixel's brightness (0-255).
 		brightness_array = np.asarray(image.convert("L"))
